@@ -6,22 +6,24 @@ int main()
 {
     int f,c;
     double mt[N][M];
-    double k=0;
+    double k=0, *punt_mt;
 
-    for(f = 0; f<N ; f++)
+    punt_mt = &mt[0][0];
+
+    for (f = 0; f < N; f++)
     {
-        for(c = 0; c<M ; c++)
+        for (c = 0; c < M; c++)
         {
-            mt[f][c]=k;
+            *(punt_mt + f * M + c) = k;
             k++;
         }
     }
 
-    for(f = 0; f<N ; f++)
+    for (f = 0; f < N; f++)
     {
-        for(c = 0; c<M ; c++)
+        for (c = 0; c < M; c++)
         {
-            printf("%f", mt[f][c]);
+            printf("%3.f", *(punt_mt + f * M + c));
         }
         printf("\n");
     }

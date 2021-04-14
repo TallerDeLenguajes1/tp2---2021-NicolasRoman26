@@ -5,18 +5,23 @@
 int main()
 {
     int f,c;
-    double mt[N][M]=
-    {
-        {1, 2, 3, 4},
-        {5, 6, 7, 8},
-        {9, 10, 11, 12}
-    };
+    double mt[N][M];
+    double k=0;
 
-    for(f = 0; f<N ; f++)
+    for(f= 0;f<N; f++)
     {
-        for(c = 0; c<M ; c++)
+        for(c= 0;c<M; c++)
         {
-            printf("%lf", mt[f][c]);
+            mt[f][c] = k;
+            k++;
+        }
+    }
+    
+    for(f= 0;f<N; f++)
+    {
+        for(c= 0;c<M; c++)
+        {
+            printf("%3.f ", mt[f][c]);
         }
         printf("\n");
     }
@@ -24,3 +29,4 @@ int main()
     getchar();
     return 0;
 }
+
