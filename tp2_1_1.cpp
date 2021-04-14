@@ -29,3 +29,7 @@ int main()
     getchar();
     return 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Opcion_2
