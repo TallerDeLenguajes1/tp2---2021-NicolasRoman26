@@ -1,0 +1,8 @@
+Punto 2, apartado f: ¿Puede ver el archivo tp2_1_2.cpp? ¿Por qué?
+No puedo ver el archivo y creeria que es porque me cambie a la rama principal, master, y ahí solo me muestra lo que se cargo o se subio por ultima vez en master.
+
+Apartado i: ¿Qué diferencias nota?
+Al ejecutar el comando, me sale una ventana en donde me muestra informacion de mi repositorio creo, y me muestra la rama master y la rama Opcion 2, y la rama Opcion 2 esta mas adelante que el master ya que fue la que sufrio mas cambios y donde estuve trabajando este tiempo.
+
+Apartado j:  ¿Qué nota?
+Al realizar el merge, ahora ejecuto el comando gitk --all y me sale de nuevo la misma ventana solo que ahora la rama master y la rama Opcion 2 se unieron y se hicieron una sola y ahora al estar en master si me salen los archivos que tenia la Opcion 2.
